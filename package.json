@@ -1,0 +1,42 @@
+{
+    "name": "password-manager",
+    "description": "A password manager for the terminal",
+    "version": "0.0.1",
+    "license": "UNLICENSED",
+    "bin": {
+        "password-manager": "index.js",
+        "pm": "index.js"
+    },
+    "author": {
+        "name": "Adeniyi Aderounmu",
+        "email": "teebarg01@gmail.com",
+        "url": "https://adeniyi.in/"
+    },
+    "keywords": [
+        "password-manager",
+        "Adeniyi Aderounmu",
+        "cli",
+        "node"
+    ],
+    "files": [
+        "index.js",
+        "utils"
+    ],
+    "scripts": {
+        "format": "prettier --write \"./**/*.{js,json}\""
+    },
+    "dependencies": {
+        "await-to-js": "^3.0.0",
+        "chalk": "^4.1.2",
+        "cli-meow-help": "^3.1.0",
+        "data-store": "^4.0.3",
+        "dotenv": "^16.0.3",
+        "enquirer": "^2.3.6",
+        "firebase": "^9.17.1",
+        "firebase-admin": "^11.5.0",
+        "meow": "^9.0.0"
+    },
+    "devDependencies": {
+        "prettier": "^2.8.4"
+    }
+}
